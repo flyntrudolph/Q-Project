@@ -1,0 +1,194 @@
+html, body {margin:0; height: 100%; overflow: hidden;}
+.body {
+  background-size: cover;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 10fr 2fr;
+  background-image: url('Q1-Project/Q-Project/assets/alan-labisch-290498-unsplash.jpg')
+}
+.mainWrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 10fr 2fr;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  box-shadow: 3px 3px #ff9800;
+  background: #29b6f6;
+
+}
+
+.headerSection1 {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  grid-column-start: 1;
+  grid-row: 1;
+}
+
+.headerSection2 {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  grid-column-start: 2
+  grid-row: 1;
+}
+
+.headerSection3 {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  grid-column-start: 3
+  grid-row: 1;
+}
+
+.mainFocus {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.mainFocus img{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 3%;
+  border: 2px solid orange;
+  clip: rect(0px,275px,275px,0px);
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/* .diffButton {
+  border: 1px solid orange;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: #29b6f6
+} */
+
+.diffButton Easy {
+  border: 1px solid orange;
+  color: orange;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  color: #29b6f6
+  grid-row: 1;
+}
+
+.diffButton Medium {
+  border: 1px solid orange;
+  color: orange;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 30px; */
+  font-size: 30px;
+  cursor: pointer;
+  color: #29b6f6
+  grid-row: 2;
+}
+
+.diffButton Hard {
+  border: 1px solid orange;
+  color: orange;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  color: #29b6f6
+  grid-row: 3;
+}
+
+
+
+.leftBar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column: 1;
+  grid-row: 2;
+  box-shadow: 2px 2px orange;
+  overflow: auto;
+  border: 1px solid orange;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.rightBar {
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
+  margin: 5px;
+  box-shadow: 2px 2px orange;
+  border-radius: 10px;
+  overflow: auto;
+  border: 1px solid orange;
+}
+
+.rightBar img {
+  position: relative;
+  padding: 10px;
+  height: 15rem;
+  width: 15rem;
+  border-bottom: 3px solid orange;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 3;
+  background: #29b6f6;
+}
+
+.playButton {
+  color: #29b6f6;
+  font-size: 20px;
+  cursor: pointer;
+  grid-row: 2;
+  grid-column: 2;
+  align-items: center;
+
+}
+
+
+.iframe {
+  overflow: hidden;
+  height: 700px;
+  width: 700px;
+}
