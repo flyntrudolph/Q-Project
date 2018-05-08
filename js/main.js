@@ -107,9 +107,6 @@ $('Document').ready(function (){
   }
 
 
-
-
-
   function imageListener () {
     var images = $('.rightBar img')
     images.click(function (e) {
@@ -163,13 +160,13 @@ $('Document').ready(function (){
       if(lastDiffClick == '') {
         lastDiffClick=3
         localStorageFunc('diff', lastDiffClick)
-      }else {
+      } else {
         localStorageFunc('diff', lastDiffClick.id)
       }
       if(lastImgClick == '') {
         lastImgClick='https://source.unsplash.com/random?sig=1'
         localStorageFunc('img', lastImgClick)
-      }else {
+      } else {
         localStorageFunc('img', lastImgClick.src)
       }
       window.location.href='playPage.html'
@@ -193,8 +190,8 @@ $('Document').ready(function (){
 // *******************************************
 //THIS IS THE CODE BELOW FOR THE IMAGE GAME IT SELF
   function onImage(e){
-      _pieceWidth = Math.floor(650 / PUZZLE_DIFFICULTY)
-      _pieceHeight = Math.floor(650 / PUZZLE_DIFFICULTY)
+      _pieceWidth = Math.floor(650 / PUZZLE_DIFFICULTY);
+      _pieceHeight = Math.floor(650 / PUZZLE_DIFFICULTY);
       _puzzleWidth = _pieceWidth * PUZZLE_DIFFICULTY;
       _puzzleHeight = _pieceHeight * PUZZLE_DIFFICULTY;
       setCanvas();
@@ -212,7 +209,7 @@ $('Document').ready(function (){
     _mouse = {x:0,y:0};
     _currentPiece = null;
     _currentDropPiece = null;
-    _stage.drawImage(_img, 0, 0, _puzzleWidth, _puzzleHeight, 0, 0, _puzzleWidth, _puzzleHeight);
+    _stage.drawImage(_img, 0, 0, 650, 650, 0, 0, 650, 650);
     createTitle("Click to Start Puzzle");
     buildPieces();
   }
