@@ -98,6 +98,7 @@ html, body {margin:0; height: 100%; overflow: hidden;}
 
 .diffButtonEasy {
   border: 1px solid orange;
+  /* background-color: #fff; */
   color: orange;
   width: 100%;
   text-align: center;
@@ -105,9 +106,10 @@ html, body {margin:0; height: 100%; overflow: hidden;}
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
-  color: #29b6f6
   grid-row: 1;
 }
+
+
 
 .diffButtonMedium {
   border: 1px solid orange;
@@ -119,7 +121,6 @@ html, body {margin:0; height: 100%; overflow: hidden;}
   /* font-size: 30px; */
   font-size: 30px;
   cursor: pointer;
-  color: #29b6f6
   grid-row: 2;
 }
 
@@ -132,7 +133,6 @@ html, body {margin:0; height: 100%; overflow: hidden;}
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
-  color: #29b6f6
   grid-row: 3;
 }
 
