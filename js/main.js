@@ -57,10 +57,34 @@ $('Document').ready(function (){
   }
 
   function diffButtonListener () {
-    var diffButtons = $('.leftbar ')
-    diffButtons.click(function (e) {
+    var diffButtonsEasy = $('.diffButtonEasy')
+    diffButtonsEasy.click(function (e) {
       if(lastDiffClick !== '')  {
-        lastDiffClick.style.border = 'none'
+        lastDiffClick.style.border = '1px solid black'
+        lastDiffClick.style.opacity = '1'
+        this.style.border = '3px solid #29b6f6'
+        this.style.opacity = '0.5'
+      }
+      lastDiffClick = this
+      this.style.opacity = '0.5'
+      this.style.border = '3px solid #29b6f6'
+    })
+    var diffButtonsMedium = $('.diffButtonMedium')
+    diffButtonsMedium.click(function (e) {
+      if(lastDiffClick !== '')  {
+        lastDiffClick.style.border = '1px solid black'
+        lastDiffClick.style.opacity = '1'
+        this.style.border = '3px solid #29b6f6'
+        this.style.opacity = '0.5'
+      }
+      lastDiffClick = this
+      this.style.opacity = '0.5'
+      this.style.border = '3px solid #29b6f6'
+    })
+    var diffButtonsHard = $('.diffButtonHard')
+    diffButtonsHard.click(function (e) {
+      if(lastDiffClick !== '')  {
+        lastDiffClick.style.border = '1px solid black'
         lastDiffClick.style.opacity = '1'
         this.style.border = '3px solid #29b6f6'
         this.style.opacity = '0.5'
@@ -70,6 +94,8 @@ $('Document').ready(function (){
       this.style.border = '3px solid #29b6f6'
     })
   }
+
+
 
 
 
