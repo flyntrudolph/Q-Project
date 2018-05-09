@@ -1,42 +1,123 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel='stylesheet' href='style/style.css'>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script defer src='js/main.js'></script>
-    <title>PICTURE MIXTURE</title>
-  </head>
-  <body>
-    <div class=mainWrapper>
-      <div class=header>
-        <div class="headerSection1">1. SELECT YOUR DIFFICULTY</div>
-        <div class="headerSection2">2. SELECT YOUR PUZZLE</div>
-        <div class="headerSection3">3. BEGIN YOUR PUZZLE</div>
-      </div>
-      <div class=mainFocus>
-        <button type="button" class="playButton">Click Here To Play</button>
-      </div>
-      <div class=leftBar>
-        <button type="button" id="3" class="diffButtonEasy">Easy</button>
-        <button type="button" id="7" class="diffButtonMedium">Medium</button>
-        <button type="button" id="9" class="diffButtonHard">Hard</button>
-      </div>
-      <div class=rightBar>
-        <!-- <img src="assets/test9.jpeg" alt="1"> <br> -->
-        <img src="https://images.unsplash.com/photo-1508767916560-b6c1a5694ece?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=333dceff63a6c3c5603687ecc802304d" alt="2"> <br>
-        <img src="https://images.unsplash.com/photo-1507931870918-dd05c3d99f5d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=af5db1e3834e807443b14612281899aa" alt="3"> <br>
-        <img src="https://source.unsplash.com/random?sig=4" alt="4"> <br>
-        <img src="https://source.unsplash.com/random?sig=5" alt="5"> <br>
-        <img src="https://source.unsplash.com/random?sig=6" alt="6"> <br>
-        <img src="https://source.unsplash.com/random?sig=7" alt="7"> <br>
-        <img src="https://source.unsplash.com/random?sig=8" alt="8"> <br>
-        <img src="https://source.unsplash.com/random?sig=9" alt="9"> <br>
-        <img src="https://source.unsplash.com/random?sig=10" alt="10"> <br>
-      </div>
-      <div class=footer>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>PICTURE MIXER!</title>
 
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+
+
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"> </a>
+
+      <!-- <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">PICTURE MIXER</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">AN EXPERIMENT IN WASTING TIME</h5>
+      </div>
+      <div class="row center">
+
+       <a href="../Q-Project/bootstrapOpener.html" id="download-button" class="btn-large waves-effect waves-light orange">QUICK START!</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="large material-icons">flash_on</i></h2>
+          <h5 class="center">Three difficulty levels to challenge all abilities!</h5>
+
+
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="large material-icons">flash_on</i></h2>
+            <h5 class="center">Nearly infinite amount of pictures from which to choose!</h5>
+
+
+            <p class="light"></p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="large material-icons">flash_on</i></h2>
+            <h5 class="center">Challenge your friends on the PICTURE MIXTURE leaderboard! (coming soon) </h5>
+
+
+            <p class="light"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">ABOUT THIS PROJECT</h5>
+          <p class="grey-text text-lighten-4">This project was created for the Galvanize G89 Quarter 1 project</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">CREATOR</h5>
+          <ul>
+            <li><a class="white-text" href="#!">FLYNT RUDOLPH</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">CONTACT</h5>
+          <ul>
+            <li><a class="white-text" href="#!">FLYNTRUDOLPH3@GMAIL.COM</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script defer src="js/main.js"></script>
+
   </body>
 </html>
