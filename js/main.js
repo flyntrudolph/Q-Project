@@ -68,8 +68,8 @@ $('Document').ready(function (){
         this.style.opacity = '0.5'
       }
       lastDiffClick = this
-      this.style.opacity = '0.5'
-      this.style.border = '3px solid #29b6f6'
+      this.style.opacity = '1'
+      this.style.border = '10px solid #29b6f6'
       this.style.color = '#29b6f6'
     })
 
@@ -84,8 +84,8 @@ $('Document').ready(function (){
         this.style.opacity = '0.5'
       }
       lastDiffClick = this
-      this.style.opacity = '0.5'
-      this.style.border = '3px solid #29b6f6'
+      this.style.opacity = '1'
+      this.style.border = '10px solid #29b6f6'
       this.style.color = '#29b6f6'
     })
 
@@ -100,8 +100,8 @@ $('Document').ready(function (){
         this.style.opacity = '0.5'
       }
       lastDiffClick = this
-      this.style.opacity = '0.5'
-      this.style.border = '3px solid #29b6f6'
+      this.style.opacity = '1'
+      this.style.border = '10px solid #29b6f6'
       this.style.color = '#29b6f6'
     })
   }
@@ -118,7 +118,7 @@ $('Document').ready(function (){
       }
       lastImgClick = this
       this.style.opacity = '0.5'
-      this.style.border = '1px solid orange'
+      this.style.border = '10px solid orange'
     })
   }
 
