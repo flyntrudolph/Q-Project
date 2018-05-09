@@ -49,11 +49,11 @@ $('Document').ready(function (){
       imgArray.push(xhr.responseURL)
       //Sends response of response as null.
     }
-    xhr.send(null)
-    if(currentCallNum >= 6){
-       changeImages()
-       clearInterval(clear)
-    }
+    // xhr.send(null)
+    // if(currentCallNum >= 6){
+    //    changeImages()
+    //    clearInterval(clear)
+    // }
   }
 
   function diffButtonListener () {
@@ -128,13 +128,13 @@ $('Document').ready(function (){
   function callRandom(callback) {
     clear = setInterval(callback, 900)
   }
-  function changeImages() {
-    var count = 0
-    for(var i =6; i < 20; i=i+2) {
-      $('.rightBar')[0].children[i].src = imgArray[count]
-      count++
-    }
-  }
+  // function changeImages() {
+  //   var count = 0
+  //   for(var i =6; i < 20; i=i+2) {
+  //     $('.rightBar')[0].children[i].src = imgArray[count]
+  //     count++
+  //   }
+  // }
 
   $('#previewImg').attr("src", getStorage('img'))
   console.log($('#previewImg'))

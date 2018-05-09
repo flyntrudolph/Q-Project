@@ -82,7 +82,7 @@ html, body {margin:0; height: 100%; overflow: hidden;}
 .mainFocus1 img{
   position: absolute;
   margin-top: 2%;
-  margin-left: 3%;
+  /* margin-left: 3%; */
   /* border: 2px solid orange; */
   clip: rect(0px,275px,275px,0px);
 
