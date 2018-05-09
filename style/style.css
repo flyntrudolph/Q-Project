@@ -83,7 +83,7 @@ html, body {margin:0; height: 100%; overflow: hidden;}
   position: absolute;
   margin-top: 2%;
   margin-left: 3%;
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   clip: rect(0px,275px,275px,0px);
 
 }
